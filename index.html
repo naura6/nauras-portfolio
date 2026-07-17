@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penulis Kata | Portofolio Tulisan</title>
+    <!-- Google Fonts: Inter & Merriweather (Khas Medium) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Jurnal<span class="accent">Saya.</span></a>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#articles-section" class="nav-link">Tulisan</a>
+                <button id="bookmark-filter-btn" class="nav-btn-icon" title="Lihat Bookmark">
+                    <i class="far fa-bookmark"></i>
+                    <span id="bookmark-count" class="badge">0</span>
+                </button>
+                <button id="theme-toggle" class="nav-btn-icon" title="Ubah Tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Tempat Saya Menuangkan Ide, Cerita, dan Analisis.</h1>
+                <p>Halo! Saya seorang Penulis Konten & Esais. Di sini Anda bisa membaca kumpulan artikel saya mulai dari teknologi, budaya, hingga cerita reflektif.</p>
+                <div class="hero-socials">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="mailto:emailmu@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="main-container" id="articles-section">
+        
+        <!-- Toolbar: Search & Categories -->
+        <div class="toolbar">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="Cari judul atau kata kunci tulisan...">
+            </div>
+            <div class="categories" id="categories-container">
+                <button class="cat-btn active" data-category="all">Semua</button>
+                <button class="cat-btn" data-category="Teknologi">Teknologi</button>
+                <button class="cat-btn" data-category="Filosofi">Filosofi</button>
+                <button class="cat-btn" data-category="Gaya Hidup">Gaya Hidup</button>
+                <button class="cat-btn" data-category="Finansial">Finansial</button>
+            </div>
+        </div>
+
+        <!-- Status Filter Bookmark Aktif -->
+        <div id="bookmark-status-bar" class="status-bar hidden">
+            <span>Menampilkan artikel yang Anda simpan</span>
+            <button id="clear-bookmark-filter">Tampilkan Semua <i class="fas fa-times"></i></button>
+        </div>
+
+        <!-- Articles Grid -->
+        <div class="articles-grid" id="articles-grid">
+            <!-- Artikel akan di-render secara dinamis menggunakan JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal Pop-up untuk Membaca Artikel -->
+    <div class="modal" id="article-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal-btn">&times;</span>
+            <article class="full-article">
+                <div class="article-meta-modal">
+                    <span id="modal-category" class="article-category">Kategori</span>
+                    <span id="modal-date">Tanggal</span> &bull; 
+                    <span id="modal-read-time">5 min read</span>
+                </div>
+                <h1 id="modal-title">Judul Artikel</h1>
+                <div id="modal-body" class="article-body">
+                    <!-- Konten artikel penuh di sini -->
+                </div>
+                <div class="modal-footer">
+                    <button id="modal-share-btn" class="btn-share"><i class="fas fa-share-alt"></i> Bagikan Artikel</button>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 JurnalSaya. Dibuat dengan <i class="fas fa-heart" style="color: #e25555;"></i> untuk Portofolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
