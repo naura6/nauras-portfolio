@@ -17,7 +17,7 @@ const articlesData = [
     {
         id: 2,
         title: "Aku Butuh Menjadi Sensitif",
-        excerpt: ""Sensitif banget sih jadi cewek!", ucapnya. Lalu, kalau iya, memang kenapa?",
+        excerpt: "'Sensitif banget sih jadi cewek!', ucapnya. Lalu, kalau iya, memang kenapa?",
         content: `
             <p>Kita hidup di era di mana kecepatan dipuja. Makanan instan, koneksi internet kilat, hingga kesuksesan yang diharapkan datang dalam semalam. Tanpa sadar, kita terus berlari mengejar sesuatu yang abstrak, hingga lupa menikmati momen saat ini.</p>
             <p>Filosofi <i>Slow Living</i> hadir bukan sebagai ajakan untuk menjadi malas, melainkan sebuah kesadaran untuk melakukan segala sesuatu dengan kualitas, bukan sekadar kecepatan. Ini adalah tentang menghadirkan perhatian penuh (mindfulness) pada setiap aktivitas kita.</p>
