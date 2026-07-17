@@ -3,8 +3,8 @@
 const articlesData = [
     {
         id: 1,
-        title: "Masa Depan AI dalam Dunia Kreatif: Ancaman atau Kolaborator?",
-        excerpt: "Kecerdasan buatan berkembang pesat, memicu perdebatan di kalangan penulis dan desainer. Apakah teknologi ini akan menggantikan peran manusia, atau justru menjadi asisten terbaik?",
+        title: "Dengan Clarity, Emang Semua Makin Terarah?",
+        excerpt: "Kejelasan > Tujuan > Upaya terarah > Sampai ke tujuan, ternyata nggak sesederhana bikin tugas mind mapping di sekolah",
         content: `
             <p>Perkembangan Artificial Intelligence (AI) belakangan ini telah mencapai level yang mencengangkan. Dari menghasilkan gambar estetik hingga menyusun esai yang koheren, AI membuktikan dirinya mampu meniru proses kreatif manusia.</p>
             <p>Bagi banyak pekerja kreatif, fenomena ini mendatangkan kecemasan. Muncul pertanyaan fundamental: Apakah orisinalitas manusia masih memiliki nilai jika mesin dapat memproduksi karya yang mirip dalam hitungan detik?</p>
@@ -16,8 +16,8 @@ const articlesData = [
     },
     {
         id: 2,
-        title: "Seni Menikmati Lambatnya Hidup di Era Serba Instan",
-        excerpt: "Di dunia yang menuntut kecepatan, memilih untuk melambat adalah sebuah tindakan revolusioner. Mengenal filosofi 'Slow Living' untuk kesehatan mental yang lebih baik.",
+        title: "Aku Butuh Menjadi Sensitif",
+        excerpt: ""Sensitif banget sih jadi cewek!", ucapnya. Lalu, kalau iya, memang kenapa?",
         content: `
             <p>Kita hidup di era di mana kecepatan dipuja. Makanan instan, koneksi internet kilat, hingga kesuksesan yang diharapkan datang dalam semalam. Tanpa sadar, kita terus berlari mengejar sesuatu yang abstrak, hingga lupa menikmati momen saat ini.</p>
             <p>Filosofi <i>Slow Living</i> hadir bukan sebagai ajakan untuk menjadi malas, melainkan sebuah kesadaran untuk melakukan segala sesuatu dengan kualitas, bukan sekadar kecepatan. Ini adalah tentang menghadirkan perhatian penuh (mindfulness) pada setiap aktivitas kita.</p>
@@ -29,8 +29,8 @@ const articlesData = [
     },
     {
         id: 3,
-        title: "Panduan Mengatur Finansial bagi Freelancer Agar Tidak Boncos",
-        excerpt: "Pendapatan tidak menentu sering membuat pekerja lepas stres. Berikut strategi mengalokasikan dana darurat dan investasi secara mandiri.",
+        title: "Poll-Up: Inovasi Mobile Application sebagai Intervensi Kuratif dalam Menangani Political Anxiety melalui Pendekatan Cognitive Mobilization bagi Kesejahteraan Psikologis Generasi Muda",
+        excerpt: "Political anxiety mulai ramai akhir-akhir ini karena kondisi sosial-politik di Indonesia. Lalu, apa yang bisa dilakukan?",
         content: `
             <p>Menjadi freelancer memberikan kebebasan waktu yang luar biasa, namun ia datang dengan satu tantangan besar: pendapatan yang fluktuatif. Bulan ini Anda bisa panen besar, bulan berikutnya bisa jadi kering kerontang.</p>
             <p>Kunci utama bertahan di industri ini adalah manajemen arus kas yang ketat. Aturan pertama yang wajib dilakukan adalah memisahkan rekening pribadi dengan rekening bisnis/kerjaan. Jangan pernah mencampurnya.</p>
