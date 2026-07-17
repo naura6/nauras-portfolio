@@ -1,8 +1,8 @@
 /* --- VARIABLES & THEME SETUP --- */
 :root {
-    --bg-color: #78a2d2;
-    --bg-secondary: #feffaf;
-    --text-main: #ffffff;
+    --bg-color: #ffffff;
+    --bg-secondary: #fafafa;
+    --text-main: #292929;
     --text-muted: #757575;
     --accent-color: #1a8917; /* Hijau khas Medium */
     --accent-hover: #156f12;
@@ -14,9 +14,9 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #feffaf;
+    --bg-color: #121212;
     --bg-secondary: #1c1c1c;
-    --text-main: #78a2d2;
+    --text-main: #f0f0f0;
     --text-muted: #a0a0a0;
     --accent-color: #24a821;
     --border-color: #2d2d2d;
