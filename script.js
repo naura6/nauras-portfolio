@@ -10,7 +10,7 @@ const articlesData = [
             <p>Bagi banyak pekerja kreatif, fenomena ini mendatangkan kecemasan. Muncul pertanyaan fundamental: Apakah orisinalitas manusia masih memiliki nilai jika mesin dapat memproduksi karya yang mirip dalam hitungan detik?</p>
             <p>Namun, jika kita melihat dari sudut pandang sejarah teknologi, setiap disrupsi selalu membawa ruang kolaborasi baru. AI tidak memiliki emosi, pengalaman hidup, maupun kesadaran eksistensial—tiga pilar utama yang membentuk karya seni yang mendalam. Oleh karena itu, masa depan industri kreatif bukan tentang persaingan antara manusia melawan mesin, melainkan integrasi harmonis di mana AI bertindak sebagai katalisator ide mentah, dan manusia sebagai kurator rasa.</p>
         `,
-        category: "Teknologi",
+        category: "Opini",
         date: "14 Jul 2026",
         readTime: "3 min read"
     },
@@ -23,7 +23,7 @@ const articlesData = [
             <p>Filosofi <i>Slow Living</i> hadir bukan sebagai ajakan untuk menjadi malas, melainkan sebuah kesadaran untuk melakukan segala sesuatu dengan kualitas, bukan sekadar kecepatan. Ini adalah tentang menghadirkan perhatian penuh (mindfulness) pada setiap aktivitas kita.</p>
             <p>Ketika kita memutuskan untuk melambat—menikmati setiap tegukan kopi di pagi hari, mendengarkan cerita teman tanpa sibuk melihat layar ponsel—kita sebenarnya sedang merebut kembali kendali atas hidup kita sendiri dari hiruk-pikuk modernitas.</p>
         `,
-        category: "Filosofi",
+        category: "Reflektif",
         date: "10 Jul 2026",
         readTime: "4 min read"
     },
@@ -36,7 +36,7 @@ const articlesData = [
             <p>Kunci utama bertahan di industri ini adalah manajemen arus kas yang ketat. Aturan pertama yang wajib dilakukan adalah memisahkan rekening pribadi dengan rekening bisnis/kerjaan. Jangan pernah mencampurnya.</p>
             <p>Kedua, bangun dana darurat yang lebih besar daripada pekerja kantoran. Jika pekerja tetap butuh 3-6 bulan pengeluaran, seorang freelancer idealnya memiliki 6-12 bulan dana darurat untuk mengantisipasi masa-masa sepi proyek.</p>
         `,
-        category: "Finansial",
+        category: "Ilmiah",
         date: "02 Jun 2026",
         readTime: "5 min read"
     }
