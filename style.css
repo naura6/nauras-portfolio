@@ -1,8 +1,8 @@
 /* --- VARIABLES & THEME SETUP --- */
 :root {
     --bg-color: #78a2d2;
-    --bg-secondary: #fafafa;
-    --text-main: #feffaf;
+    --bg-secondary: #feffaf;
+    --text-main: #ffffff;
     --text-muted: #757575;
     --accent-color: #1a8917; /* Hijau khas Medium */
     --accent-hover: #156f12;
